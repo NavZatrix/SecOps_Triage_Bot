@@ -1,4 +1,4 @@
-# Project bullets (resume/LinkedIn friendly)
+# Project bullets
 
 - Built an AWS-focused SecOps triage bot that converts CloudTrail-style events into deduplicated incidents and ticket-ready JSON for analyst workflows  
 - Implemented stateful deduplication with a 30-minute correlation window to collapse repeat alerts into a single incident while tracking occurrence counts  

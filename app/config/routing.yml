@@ -1,0 +1,17 @@
+rules:
+  - match:
+      alert_type: iam_access_key_created
+    owner: IAM/Security
+  - match:
+      alert_type: console_login_failed
+    owner: SOC
+  - match:
+      alert_type: console_login_success
+    owner: SOC
+  - match:
+      alert_type: assume_role
+    owner: Cloud Platform Security
+  - match:
+      alert_type: security_group_opened
+    owner: Cloud Platform Security
+default_owner: SOC

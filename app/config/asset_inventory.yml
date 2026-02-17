@@ -1,0 +1,7 @@
+assets:
+  i-0abc123def4567890:
+    env: prod
+    owner: payments
+  i-0123456789abcdef0:
+    env: dev
+    owner: platform

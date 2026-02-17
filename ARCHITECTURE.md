@@ -22,8 +22,3 @@ flowchart LR
     G
   end
 ```
-
-## What you can extend next
-- Replace placeholder IP reputation with real threat intel enrichment (AbuseIPDB, OTX)  
-- Add real ingestion: S3 CloudTrail logs, Athena queries, or CloudWatch Logs subscription  
-- Emit Slack notifications and open GitHub Issues automatically

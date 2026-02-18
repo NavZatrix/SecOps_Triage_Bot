@@ -18,7 +18,6 @@ pip install -r requirements.txt
 python -m app.main
 ```
 
-You’ll get JSON tickets in `out/` and a console summary.
 
 ## Run with Docker
 ```bash
